@@ -1,0 +1,98 @@
+section {
+  background-color: $color-main-background;
+  .left_side_menu {
+    background-color: $color-main-background;
+    flex: 0.9;
+    margin-top: 20px;
+    .left_side_menu_navigation {
+      div {
+        align-items: center;
+        display: flex;
+        margin-left: 15px;
+        padding: 10px;
+        cursor: pointer;
+        &:hover {
+          background-color: $color-background-hover;
+          border-radius: 15px;
+          button {
+            background-color: $color-background-hover;
+            border-radius: 15px;
+          }
+        }
+        img {
+          border-radius: 50%;
+        }
+        h3 {
+          
+          margin-left: 17px;
+          color: white;
+          
+         
+        }
+        button {
+          display: flex;
+          width: 100%;
+          background-color: $color-main-background;
+          border: none;
+          color: $color-primary;
+          font-size: 0.9375rem;
+          height: 30px;
+          align-items: center;
+          i {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+    .left_side_menu_shortcuts{
+      div{
+        &:hover {
+          background-color: $color-background-hover;
+          border-radius: 15px;
+          button {
+            background-color: $color-background-hover;
+            border-radius: 15px;
+          }
+        }
+        &:first-child{
+          border-top: 1px solid #414141;
+        }
+        align-items: center;
+        display: flex;
+        margin-left: 5px;
+        padding: 10px;
+        cursor: pointer;
+        img{
+          border-radius: 10px;
+        }
+        h4{
+        
+          color: #646060;
+          font-size: 20px;
+        }
+        h3{
+          margin-left: 10px;
+          color: white;
+        }
+      }
+    }
+    .left_side_menu_footer{
+      ul{
+       li{
+        margin-left: 5px;
+        color:#646060 ;
+        list-style-type: none;
+        cursor: pointer;
+       }
+      }
+    }
+  }
+  .content {
+    background-color: green;
+    flex: 2.3;
+  }
+  .right_side_menu {
+    background-color: yellow;
+    flex: 0.9;
+  }
+}

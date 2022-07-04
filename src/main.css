@@ -190,6 +190,9 @@ section .left_side_menu .left_side_menu_footer ul li {
   list-style-type: none;
   cursor: pointer;
 }
+section .left_side_menu .left_side_menu_footer ul li:hover {
+  border-bottom: 1px solid #646060;
+}
 section .content {
   background-color: green;
   flex: 2.3;

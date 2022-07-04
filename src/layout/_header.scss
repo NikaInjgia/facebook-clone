@@ -2,3 +2,92 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: $color-secondary-background;
+  height: 70px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  .header_facebook_button {
+    border: none;
+    font-size: 50px;
+    color: $color-primary;
+    background-color: $color-secondary-background;
+    cursor: pointer;
+  }
+  .header_nav_bar {
+    flex: 1.6;
+
+    div {
+      cursor: pointer;
+      height: 100%;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      &:hover {
+        background-color: $color-background-hover;
+        border-radius: 15px;
+        button {
+          background-color: $color-background-hover;
+        }
+      }
+      &:first-child {
+        border-bottom: 4px solid $color-primary;
+        button {
+          color: $color-primary;
+        }
+      }
+      button {
+        border: none;
+        font-size: 30px;
+        color: $color-icons;
+        background-color: $color-secondary-background;
+        cursor: pointer;
+      }
+    }
+  }
+  .header_settings {
+    flex: 1;
+  }
+  .header_search_nav {
+    gap: 10px;
+    margin-left: 5px;
+    flex: 1;
+  }
+  .header_search {
+    input {
+      background-color: $color-background-hover;
+      font-size: 20px;
+      padding: 14px 40px 14px 10px;
+      border-radius: 50px;
+      border: none;
+      &:focus {
+        outline: none !important;
+      }
+    }
+  }
+  .header_settings {
+    gap: 10px;
+    margin-right: 8px;
+    div {
+        
+      img{
+        border-radius: 50%;
+      }
+      button {
+        border: none;
+        font-size: 30px;
+        color: $color-icons;
+        background-color: $color-background-hover;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 8px;
+        height: 50px;
+        width: 50px;
+        &:hover{
+            background-color: $color-secondary-hover;
+        }
+      }
+    }
+  }
+}

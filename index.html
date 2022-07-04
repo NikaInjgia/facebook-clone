@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
-    <link rel="stylesheet" href="/src/main.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/src/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="flex-row justify-between">
+      <div class="header_search_nav flex-row align-center">
+        <div class="header_facebook_logo">
+          <button class="header_facebook_button">
+            <i class="fa-brands fa-facebook"></i>
+          </button>
+        </div>
+        <div class="header_search">
+          <form>
+            <input
+              type="text"
+              placeholder=" &#xf002; Search Facebook"
+              style="font-family: Arial, FontAwesome; font-style: normal"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="header_nav_bar flex-row align-center">
+        <div class="header_home">
+          <button class="header_home_button">
+            <i class="fa-solid fa-house"></i>
+          </button>
+        </div>
+        <div class="header_watch">
+          <button class="header_watch_button">
+            <i class="fa-brands fa-youtube"></i>
+          </button>
+        </div>
+        <div class="header_market">
+          <button class="header_market_button">
+            <i class="fa-solid fa-store"></i>
+          </button>
+        </div>
+        <div class="header_groups">
+          <button class="header_groups_button">
+            <i class="fa-solid fa-user-group"></i>
+          </button>
+        </div>
+        <div class="header_gaming">
+          <button class="header_gaming_button">
+            <i class="fa-solid fa-chess-queen"></i>
+          </button>
+        </div>
+      </div>
+      <div class="header_settings flex-row align-center justify-end">
+        <div>
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div>
+            <button><i class="fa-brands fa-facebook-messenger"></i></button>
+        </div>
+        <div>
+            <button><i class="fa-solid fa-bell"></i></button>
+        </div>
+        <div>
+            <img src="/src/img/img_avatar.png" width="50px" height="50px"  alt="">
+        </div>
+      </div>
+    </header>
+  </body>
 </html>

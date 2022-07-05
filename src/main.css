@@ -347,12 +347,20 @@ section .content .content_posts .content_post {
 section .content .content_posts .content_post .post_header {
   margin-top: 0px;
 }
+section .content .content_posts .content_post .post_header .post_left_side {
+  gap: 15px;
+}
 section .content .content_posts .content_post .post_header .post_left_side a {
   text-decoration: none;
   color: white;
 }
 section .content .content_posts .content_post .post_header .post_left_side a:hover {
   border-bottom: 1px solid white;
+}
+section .content .content_posts .content_post .post_header .post_left_side div {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 section .content .content_posts .content_post .post_header .post_left_side div img {
   border-radius: 50%;
@@ -385,6 +393,9 @@ section .content .content_posts .content_post .like_share div div a {
 }
 section .content .content_posts .content_post .like_share div div a:hover {
   border-bottom: 1px solid #646060;
+}
+section .content .content_posts .content_post .post_like_comment_share {
+  margin-top: 10px;
 }
 section .content .content_posts .content_post .post_like_comment_share button {
   border: none;

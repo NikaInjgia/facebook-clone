@@ -260,6 +260,7 @@ button{
           margin-top: 0px;
 
           .post_left_side {
+            gap: 15px;
             a {
               text-decoration: none;
               color: white;
@@ -268,6 +269,9 @@ button{
               }
             }
             div {
+              margin-left: 10px;
+              margin-top: 10px;
+              margin-bottom: 10px;
               img {
                 border-radius: 50%;
               }
@@ -312,6 +316,7 @@ button{
           }
         }
         .post_like_comment_share {
+          margin-top: 10px;
          
           button {
             i{

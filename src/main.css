@@ -23,6 +23,10 @@
   justify-content: end;
 }
 
+.justify-start {
+  justify-content: start;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -193,11 +197,159 @@ section .left_side_menu .left_side_menu_footer ul li {
 section .left_side_menu .left_side_menu_footer ul li:hover {
   border-bottom: 1px solid #646060;
 }
-section .content {
-  background-color: green;
-  flex: 2.3;
-}
 section .right_side_menu {
   background-color: yellow;
   flex: 0.9;
+}
+section .content {
+  background-color: #18191a;
+  flex: 2.3;
+}
+section .content .content_story {
+  max-width: 900px;
+}
+section .content .content_story div {
+  position: relative;
+  height: 250px;
+  margin: 20px 5px;
+  border-radius: 20px;
+}
+section .content .content_story div img {
+  cursor: pointer;
+  height: 250px;
+  width: 150px;
+  border-radius: 20px;
+}
+section .content .content_story div a {
+  position: absolute;
+  z-index: 1000;
+  bottom: 5px;
+  left: 10px;
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+section .content .content_posting {
+  width: 700px;
+}
+section .content .content_posting .content_posting_bar {
+  border-radius: 10px;
+  background-color: #242526;
+}
+section .content .content_posting .content_posting_bar .content_searching {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  margin: 10px;
+}
+section .content .content_posting .content_posting_bar .content_searching img {
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: -8px;
+}
+section .content .content_posting .content_posting_bar .content_searching input {
+  border: none;
+  background-color: #3a3b3c;
+  border-radius: 30px;
+  padding: 16px 235px;
+}
+section .content .content_posting .content_posting_bar .content_live_video div {
+  margin-bottom: 10px;
+}
+section .content .content_posting .content_posting_bar .content_live_video div button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #242526;
+  padding: 17px 42px;
+  border-radius: 10px;
+}
+section .content .content_posting .content_posting_bar .content_live_video div button:hover {
+  background-color: rgb(88, 88, 88);
+}
+section .content .content_posting .content_posting_bar .content_live_video div button i {
+  font-size: 25px;
+}
+section .content .content_posting .content_posting_bar .content_live_video div button #live_video_icon {
+  color: rgb(255, 0, 98);
+}
+section .content .content_posting .content_posting_bar .content_live_video div button #live_photo_icon {
+  color: green;
+}
+section .content .content_posting .content_posting_bar .content_live_video div button #live_smile_icon {
+  color: orange;
+}
+section .content .content_posting .content_posting_bar .content_live_video div button h3 {
+  margin-left: 5px;
+  color: rgb(175, 174, 174);
+}
+section .content .content_posts {
+  background-color: #18191a;
+  width: 730px;
+}
+section .content .content_posts .content_post {
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #242526;
+  margin: 15px;
+}
+section .content .content_posts .content_post .post_header {
+  margin-top: 0px;
+}
+section .content .content_posts .content_post .post_header .post_left_side a {
+  text-decoration: none;
+  color: white;
+}
+section .content .content_posts .content_post .post_header .post_left_side a:hover {
+  border-bottom: 1px solid white;
+}
+section .content .content_posts .content_post .post_header .post_left_side div img {
+  border-radius: 50%;
+}
+section .content .content_posts .content_post .post_header .post_right_side button {
+  border: none;
+  background-color: #242526;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #646060;
+}
+section .content .content_posts .content_post .post_header .post_right_side button:hover {
+  background-color: rgb(88, 88, 88);
+}
+section .content .content_posts .content_post .like_share {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: 1px solid #646060;
+}
+section .content .content_posts .content_post .like_share div div i {
+  color: #2374E1;
+  cursor: pointer;
+}
+section .content .content_posts .content_post .like_share div div a {
+  text-decoration: none;
+  color: #646060;
+}
+section .content .content_posts .content_post .like_share div div a:hover {
+  border-bottom: 1px solid #646060;
+}
+section .content .content_posts .content_post .post_like_comment_share button {
+  border: none;
+  background-color: #242526;
+  font-size: 25px;
+  padding: 5px 58px;
+  border-radius: 10px;
+}
+section .content .content_posts .content_post .post_like_comment_share button i {
+  color: #2374E1;
+}
+section .content .content_posts .content_post .post_like_comment_share button a {
+  text-decoration: none;
+  color: #646060;
+}
+section .content .content_posts .content_post .post_like_comment_share button:hover {
+  background-color: rgb(88, 88, 88);
 }/*# sourceMappingURL=main.css.map */

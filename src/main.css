@@ -198,8 +198,58 @@ section .left_side_menu .left_side_menu_footer ul li:hover {
   border-bottom: 1px solid #646060;
 }
 section .right_side_menu {
-  background-color: yellow;
+  background-color: #18191a;
   flex: 0.9;
+}
+section .right_side_menu .right_side_wraper .contact_users div {
+  margin-top: 10px;
+  position: relative;
+  margin-left: 15px;
+  padding-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+section .right_side_menu .right_side_wraper .contact_users div:hover {
+  background-color: rgb(88, 88, 88);
+  border-radius: 10px;
+}
+section .right_side_menu .right_side_wraper .contact_users div .green_icon {
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -3px;
+  left: 24px;
+}
+section .right_side_menu .right_side_wraper .contact_users div img {
+  border-radius: 50px;
+}
+section .right_side_menu .right_side_wraper .contact_users div h3 {
+  color: white;
+  margin-left: 10px;
+}
+section .right_side_menu .right_side_wraper .contact_search {
+  padding: 20px;
+}
+section .right_side_menu .right_side_wraper .contact_search .contact_left h3 {
+  color: #646060;
+  font-size: 25px;
+  margin-left: 15px;
+}
+section .right_side_menu .right_side_wraper .contact_search .contact_right button {
+  margin-right: 15px;
+  border: none;
+  background-color: #18191a;
+  border-radius: 50%;
+}
+section .right_side_menu .right_side_wraper .contact_search .contact_right button:hover {
+  background-color: rgb(88, 88, 88);
+}
+section .right_side_menu .right_side_wraper .contact_search .contact_right button i {
+  color: #646060;
+  font-size: 20px;
 }
 section .content {
   background-color: #18191a;

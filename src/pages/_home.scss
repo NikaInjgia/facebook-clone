@@ -343,3 +343,57 @@ button{
     }
   }
 }
+@media screen and (max-width : 631px) {
+  .post_like_comment_share{
+    button{
+      padding: 5px 45px !important;
+    }
+  }
+  .post_photo{
+    img{
+      
+    width: 570px !important;
+    }
+  }
+  .content_live_video{
+    div{
+      button{
+        padding: 7px 10px  !important;
+      }
+    }
+  }
+  .content_posts{
+   width: 600px !important;
+  }
+  .content{
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .right_side_menu{
+    display: none;
+  }
+  .content_story{
+   display: none;
+  }
+  .header_nav_bar{
+    display: none;
+  }
+  .contact_users{
+    display: none;
+  }
+ .left_side_menu{
+  display: none;
+}
+input{
+  display: none;
+}
+.content_posting {
+  display: flex;
+  justify-content: center;
+  width: 600px !important;
+}
+.content_posting_bar {
+  width: 570px !important;
+}
+}
